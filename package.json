@@ -1,0 +1,22 @@
+{
+  "name": "fuckyouai-si",
+  "version": "23.3.0",
+  "private": true,
+  "description": "fuckyouai.si \u2014 the global AI frustration counter.",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mongodb": "^6.19.0"
+  },
+  "scripts": {
+    "test": "npm run test:static && playwright test",
+    "test:static": "node tests/static-check.js",
+    "test:headed": "playwright test --headed",
+    "test:server": "node tests/server.js",
+    "setup:indexes": "node setup-indexes.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}
