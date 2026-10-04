@@ -1,8 +1,8 @@
 {
   "name": "fuckyouai-si",
-  "version": "23.3.0",
+  "version": "24.0.0",
   "private": true,
-  "description": "fuckyouai.si \u2014 the global AI frustration counter.",
+  "description": "FUCKYOUAI.SI \u2014 free browser rage clicker where you punch AI/SI.",
   "engines": {
     "node": ">=18"
   },

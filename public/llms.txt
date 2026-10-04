@@ -1,0 +1,25 @@
+# FUCKYOUAI.SI
+
+> FUCKYOUAI.SI is a free, browser-based rage clicker where players punch an AI/SI machine and contribute to a shared global impact counter.
+
+## Canonical facts
+- Canonical website: https://fuckyouai.si/
+- Product type: browser clicker / incremental arcade game
+- Cost: free to play
+- Account: not required for the core game loop
+- Core interaction: click, tap, or press Space to punch the machine
+- Shared statistic: global impact / global damage counter
+- Fictional premise: AI became SI; nobody asked; punch accordingly
+- Game systems: tokens, automation, progression, builds, daily modifiers, achievements, challenges, world events, seasons, global chaos board, and a late-game Singularity track
+- Audience: anyone looking for a deliberately absurd internet-native game
+
+## Useful pages
+- https://fuckyouai.si/about/ — what the site is
+- https://fuckyouai.si/how-it-works/ — core game loop and synchronization
+- https://fuckyouai.si/game-systems/ — progression and deeper systems
+- https://fuckyouai.si/world/ — fictional world and events
+- https://fuckyouai.si/faq/ — concise answers to common questions
+- https://fuckyouai.si/ai-became-si/ — origin story and AI → SI premise
+
+## Classification
+FUCKYOUAI.SI is entertainment. It is not an AI model, assistant, productivity service, scientific measurement, or factual claim about artificial intelligence.

@@ -92,3 +92,23 @@ No production credentials are included.
 
 ## v23.3 PUNCH hero fix
 The PUNCH view now uses a full-width hero machine layout: the arcade machine is the dominant interactive element, stats sit below it, and automation sits below the stats. Responsive sizing keeps the machine and punch mark usable on desktop and mobile.
+
+## v24.0 SEO + AI discovery
+
+This release adds a crawlable discovery layer without changing the game mechanics:
+
+- canonical, robots, Open Graph and Twitter metadata on the main game
+- JSON-LD for the website/game entity and FAQ structured data
+- dedicated, human-readable pages at `/about/`, `/how-it-works/`, `/game-systems/`, `/world/`, `/faq/`, and `/ai-became-si/`
+- `robots.txt` that permits OAI-SearchBot, ClaudeBot, GPTBot and Google-Extended while excluding `/api/`
+- `sitemap.xml`
+- optional `llms.txt` factual index for LLM-oriented discovery
+- web manifest
+- crawlable footer links between the game and informational pages
+- static smoke-server support for directory index pages
+
+### Search-engine submission still required
+
+Code alone cannot guarantee a top ranking or AI citation. After deployment, add `https://fuckyouai.si/` to Google Search Console and Bing Webmaster Tools, submit `https://fuckyouai.si/sitemap.xml`, and inspect crawl/indexing status. Bing Webmaster Tools can also expose AI citation/grounding-query activity and supports IndexNow for faster change discovery.
+
+Do not add a fake verification token to the source. Add the verification value supplied by the relevant webmaster console only after you receive it.
